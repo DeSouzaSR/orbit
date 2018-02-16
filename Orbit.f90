@@ -1,4 +1,4 @@
-program teste
+program test
   ! Calculate orbit
   implicit none
   real, parameter :: p = 10000 ! km
@@ -21,4 +21,4 @@ contains
     radio = p / (1 - eccen * cos(real(theta)))
   end function r
 
-end program teste
+end program test
